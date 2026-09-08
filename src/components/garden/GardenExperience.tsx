@@ -246,7 +246,7 @@ export function GardenExperience() {
     "知ってる？",
     "実はこの花たちは……",
     "私が植えたんじゃない。",
-    "あなたが咲かせたんだよ。",
+    "お姉ちゃんが咲かせたんだよ。",
   ];
 
   const grassVisible =
@@ -385,8 +385,8 @@ export function GardenExperience() {
                       transition={{ duration: 1.2, delay: 0.3 }}
                     >
                       <p className="font-sans text-sm font-light leading-relaxed text-sage-deep/70">
-                        ずっと、どう伝えればいいのか
-                        わからない想いがありました。
+                        ずっと、お姉ちゃんに
+                        どう伝えたらいいか迷っていました。
                       </p>
                       <button
                         type="button"
@@ -413,7 +413,7 @@ export function GardenExperience() {
                         transition={{ duration: 1, delay: 0.35 }}
                       >
                         <p className="mb-10 font-serif text-lg font-light text-sage-deep md:text-xl">
-                          この花を育ててくれる？
+                          お姉ちゃん、この花を育ててくれる？
                         </p>
                         <button
                           type="button"
@@ -450,7 +450,7 @@ export function GardenExperience() {
                 <ChapterCaption
                   number="01"
                   title="出会い"
-                  lines={["こんなに広い世界で、あなたに出会えた。"]}
+                  lines={["こんなに広い世界で、お姉ちゃんに出会えた。"]}
                   visible={captionVisible && captionId === 1}
                   linesVisible={linesVisible}
                 />
@@ -532,7 +532,7 @@ export function GardenExperience() {
                 title="好き"
                 lines={[
                   "いつの間にか、",
-                  "あなたがいる毎日に慣れていた。",
+                  "お姉ちゃんがいる毎日に慣れていた。",
                 ]}
                 visible={captionVisible && captionId === 2}
                 className="mt-8"
@@ -611,7 +611,7 @@ export function GardenExperience() {
                 title="想い"
                 lines={[
                   "何も特別なことがないのに、",
-                  "ふいにあなたを想うことがある。",
+                  "ふいにお姉ちゃんを想うことがある。",
                 ]}
                 visible={captionVisible && captionId === 3}
                 className="mt-10"
@@ -690,9 +690,9 @@ export function GardenExperience() {
                 number="04"
                 title="優しさ"
                 lines={[
-                  "この世界が、あなたに優しくありますように。",
+                  "この世界が、お姉ちゃんに優しくありますように。",
                   "もしそうでなければ、",
-                  "私が優しくする。",
+                  "弟がそっと守る。",
                 ]}
                 linePauseMs={[500, 1600, 1400]}
                 visible={captionVisible && captionId === 4}
@@ -795,7 +795,7 @@ export function GardenExperience() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1.4 }}
                   >
-                    この一輪は、最初からあなたのために。
+                    この一輪は、最初からお姉ちゃんのために。
                   </motion.p>
                 )}
               </AnimatePresence>
@@ -848,7 +848,7 @@ export function GardenExperience() {
                     最後の一輪
                   </p>
                   <p className="mt-4 font-sans text-sm font-light text-sage-deep/70">
-                    この一輪は、私からあなたへ。
+                    この一輪は、弟からお姉ちゃんへ。
                   </p>
                 </motion.div>
               )}
@@ -896,7 +896,7 @@ export function GardenExperience() {
                               : undefined,
                         }}
                       >
-                        私の世界に来てくれて、ありがとう。
+                        お姉ちゃんが私の世界にいてくれて、ありがとう。
                       </p>
                       <p
                         className="mt-6 font-display text-sm tracking-wide"
@@ -907,7 +907,7 @@ export function GardenExperience() {
                               : "rgba(95,111,82,0.45)",
                         }}
                       >
-                        —— 奥田ちゃん
+                        —— ダコスタ幹子
                       </p>
                     </motion.div>
                   )}
@@ -921,7 +921,7 @@ export function GardenExperience() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                   >
-                    Good night, my love. ✿
+                    Good night, big sis. ✿
                   </motion.p>
                 )}
               </AnimatePresence>
