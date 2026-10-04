@@ -246,7 +246,7 @@ export function GardenExperience() {
     "知ってる？",
     "実はこの花たちは……",
     "私が植えたんじゃない。",
-    "お姉ちゃんが咲かせたんだよ。",
+    "君が咲かせたんだよ。",
   ];
 
   const grassVisible =
@@ -385,7 +385,7 @@ export function GardenExperience() {
                       transition={{ duration: 1.2, delay: 0.3 }}
                     >
                       <p className="font-sans text-sm font-light leading-relaxed text-sage-deep/70">
-                        ずっと、お姉ちゃんに
+                        ずっと、君に
                         どう伝えたらいいか迷っていました。
                       </p>
                       <button
@@ -413,7 +413,7 @@ export function GardenExperience() {
                         transition={{ duration: 1, delay: 0.35 }}
                       >
                         <p className="mb-10 font-serif text-lg font-light text-sage-deep md:text-xl">
-                          お姉ちゃん、この花を育ててくれる？
+                          この花を一緒に育ててくれる？
                         </p>
                         <button
                           type="button"
@@ -450,7 +450,7 @@ export function GardenExperience() {
                 <ChapterCaption
                   number="01"
                   title="出会い"
-                  lines={["こんなに広い世界で、お姉ちゃんに出会えた。"]}
+                  lines={["こんなに広い世界で、君に出会えた。"]}
                   visible={captionVisible && captionId === 1}
                   linesVisible={linesVisible}
                 />
@@ -532,7 +532,7 @@ export function GardenExperience() {
                 title="好き"
                 lines={[
                   "いつの間にか、",
-                  "お姉ちゃんがいる毎日に慣れていた。",
+                  "君がいる毎日が、当たり前になっていた。",
                 ]}
                 visible={captionVisible && captionId === 2}
                 className="mt-8"
@@ -611,7 +611,7 @@ export function GardenExperience() {
                 title="想い"
                 lines={[
                   "何も特別なことがないのに、",
-                  "ふいにお姉ちゃんを想うことがある。",
+                  "ふいに君を想うことがある。",
                 ]}
                 visible={captionVisible && captionId === 3}
                 className="mt-10"
@@ -690,9 +690,9 @@ export function GardenExperience() {
                 number="04"
                 title="優しさ"
                 lines={[
-                  "この世界が、お姉ちゃんに優しくありますように。",
+                  "この世界が、君に優しくありますように。",
                   "もしそうでなければ、",
-                  "弟がそっと守る。",
+                  "私がそっと包み込むよ。",
                 ]}
                 linePauseMs={[500, 1600, 1400]}
                 visible={captionVisible && captionId === 4}
@@ -795,7 +795,7 @@ export function GardenExperience() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1.4 }}
                   >
-                    この一輪は、最初からお姉ちゃんのために。
+                    この一輪は、最初から君のために。
                   </motion.p>
                 )}
               </AnimatePresence>
@@ -848,7 +848,7 @@ export function GardenExperience() {
                     最後の一輪
                   </p>
                   <p className="mt-4 font-sans text-sm font-light text-sage-deep/70">
-                    この一輪は、弟からお姉ちゃんへ。
+                    この一輪は、私から君へ。
                   </p>
                 </motion.div>
               )}
@@ -896,7 +896,7 @@ export function GardenExperience() {
                               : undefined,
                         }}
                       >
-                        お姉ちゃんが私の世界にいてくれて、ありがとう。
+                        私の世界にいてくれて、ありがとう。
                       </p>
                       <p
                         className="mt-6 font-display text-sm tracking-wide"
@@ -907,7 +907,7 @@ export function GardenExperience() {
                               : "rgba(95,111,82,0.45)",
                         }}
                       >
-                        —— ダコスタ幹子
+                        —— 大好きな佐和子へ
                       </p>
                     </motion.div>
                   )}
@@ -921,7 +921,7 @@ export function GardenExperience() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                   >
-                    Good night, big sis. ✿
+                    おやすみ、愛しい人。✿
                   </motion.p>
                 )}
               </AnimatePresence>
